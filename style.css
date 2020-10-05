@@ -9,6 +9,7 @@ html, body {
     width: 100%;
     color: #222;
 }
+/* Navbar starts */
 .navbar {
     padding: .8ren;
     position: relative;
@@ -56,15 +57,33 @@ html, body {
 }
 
 @keyframes scroll {
-    0%(transform:translateY(-100%);)
-    100%(transform:translateY(0%);)
+    0%{transform:translateY(-100%)}
+    100%{transform:translateY(0%)}
 }
 .navbar-brand {
     text-transform: capitalize;
     font-size: 35px;
     color: black;
 }
+/* navbar ends */
 
+
+
+
+/* Home page CSS */
+
+
+
+
+
+/* ABout us page css */
+
+
+
+
+
+
+/* volunteer page css start*/
 .img {
     width: 100%;
     height: 50%;
@@ -308,18 +327,6 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 992px) {
-
-  }
-
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-
-}
-
-
 .carousel-item {
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -364,3 +371,7 @@ figure{
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+
+/* Volunteer Page css ends */
