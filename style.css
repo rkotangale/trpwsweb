@@ -76,10 +76,111 @@ html, body {
 
 
 
-/* ABout us page css */
+/*------------- ABout us page css ---------------------*/
+
+
+/*video background  at top*/
+.video-background {
+    position: relative;
+    padding-left: 10px;
+    width: 83.5%;
+    min-height: 0vh;
+}
+
+.txt h2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+#bgvid {
+    width: 119%;
+    height: 85vh;
+    object-fit: cover;
+    margin-top: 87px;
+}
+/*about us heading text*/
+.about h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.about hr{
+    width: 50px;
+    display: block;
+    height: 3px;
+    background: #009970;
+
+}
+
+/*cards */
+.about .icon-box {
+    text-align: center;
+    padding: 40px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+  }
+  
+  .about .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid #009970;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: #009970;
+  }
+  
+  .about .icon-box .icon i {
+    font-size: 28px;
+  }
+  
+  .about .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .about .icon-box h4 a {
+    color: #36343a;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .about .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .about .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .about .icon-box:hover h4 a {
+    color: #009970;
+  }
+  
+  .about .icon-box:hover .icon {
+    color: #fff;
+    background: #009970;
+  }
+  
 
 
 
+
+
+
+/*------------- ABout us page css end---------------------*/
 
 
 
