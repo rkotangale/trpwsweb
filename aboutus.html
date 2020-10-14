@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <style>/*scroll bar effect*/
+        ::-webkit-scrollbar {
+            width: 12px;
+            background: #f6f6f7; 
+            border-radius: 10px;
+            border: 1px solid black;}
+            
+        ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #009970; }/*#d4d4d4*/
+        </style>
     <meta charset="utf-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
@@ -75,7 +86,7 @@
                 </ul>
             </div>
         </nav>
-    </div>
+</div>
 <!--------------------------------nav bar end--------------------------------------------------------->
  <br>
 
@@ -85,28 +96,26 @@
             <div class="video">
                 <div class="vdo">
                 <div class="txt"><h2>TRPWS</h2></div>
-                <video id="bgvid" autoplay loop muted>
+                <video id="bgvid" autoplay loop muted class='py-2 px-2'>
                     <source src="img/Screenrecorder-2020-07-26-11-55-38-886 (1).mp4" type="video/mp4">
                 </video>
                 </div>
             </div>
         </div>
-    </div>
+</div>
 <!--background video end-->
  
     
     
-<!--About us heading text-->
-    
+<!--About us heading text-->    
 <section class="text-center">
         <div class="about">
-            <h2>ABOUT US<hr></h2>
+            <h2>ABOUT US<hr class="green-hr"></h2>
         </div>
     </section>
-    <!--About us heading text end-->
+<!--About us heading text end-->
 
 <!-----------CARDS-------------------------------->
-
 <section class="about section-bg">
     <div class="container">
 
@@ -117,7 +126,7 @@
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon" ><i class="fa-2x fa fa-handshake" aria-hidden="true"></i></div>
                 <h4><a>Mission</a></h4>
-                <p style='margin-bottom: 50px;'>To reach out as many people as possible and make a difference in their life. Our mission is to make their inner self happy. We want to bring a change in society by trying to eliminate the discrimination based on privilege by birth and not hard work and talent.</p>
+                <p style='margin-bottom: 50px;font-weight: bold;'>To reach out as many people as possible and make a difference in their life. Our mission is to make their inner self happy. We want to bring a change in society by trying to eliminate the discrimination based on privilege by birth and not hard work and talent.</p>
               </div>
             </div>
         </div>
@@ -127,7 +136,7 @@
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon"><i  class="fa-2x fa fa-flask" aria-hidden="true"></i></div>
                 <h4><a>Values</a></h4>
-                <p>Transparency.<br>
+                <p style='font-weight: bold;'>Transparency.<br>
                     Respect for human rights.<br>
                     No Discriminatory.<br>
                     Commitment.<br>
@@ -144,7 +153,7 @@
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon"><i  class="fa-2x fa fa-star" aria-hidden="true"></i></div>
                 <h4><a>Vision</a></h4>
-                <p>To make this world a better place for unprivileged people by providing them whatever required to our full potential. We believe that talent and skills are god’s gift and are product of hard work and not birth. To fill the society with individuals   who has the power of differentiating between what is good and bad for them as well as the society.</p>
+                <p style='font-weight: bold;'>To make this world a better place for unprivileged people by providing them whatever required to our full potential. We believe that talent and skills are god’s gift and are product of hard work and not birth. To fill the society with individuals   who has the power of differentiating between what is good and bad for them as well as the society.</p>
               </div>
             </div>
         </div>
@@ -153,15 +162,49 @@
           </div>
         </div>
   </section>
-
-
 <!-----------CARDS  end-------------------------------->
 
 
+<!-------------Our approach (our story) section-------------------------->
+<section class="py-3 my-2 bg-light" class="discover-our-story">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 border-right">
+                <div class="approach">
+                    <h2>OUR APPROACH<hr class="green-hr"></h2>
+                    <h3 style="font-size: 20px; text-align: center;"><p>Our Story</p></h3>
+                </div>
+                <b><p style="text-align: center;">We reach out to children and make them interact with young people from universities and teach them in a friendly way so as to provide them with a family environment for learning, make them understand our culture and hardships they need to overcome in the journey of their life.Our main motives are making children aware of the current scenario in which the world exists and train them toovercome the taboos of society. We also make them aware of the social issues they are in and how to make it a betterplace for them to survive and grow.A well defined smile is what we care for and try to achieve with our constant approach.</p></b>
+            </div>
+            <div class="col-100 col-md-4">
+                <img class="img pt-5 my-5 " src="img/images (4).jfif" alt="image" style="height: 30vh;">
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-------------Our approach (our story) section end-------------------------->
+
+<!-------------trpws our team image(banner)------------------------
+<div class="jumbotron img-jmbo">
+    <section class="testful-recipes between">
+      <div class="container">
+          <div class="global headline">
+              <div class="animate-top">
+                  <h2 class="sub-headline text-white"><span class="first-letter">Trpws</span></h2>
+              </div>
+              <div class="animate-top"><b><p class="headline headline-dark text-white">OUR TEAM</p></b></div>
+          </div>
+      </div>
+    </section>
+  </div>
+  
+  
+-----------trpws our team image(banner) end-------------------------->
 
 
-    <!---------footer---------->
-    <footer id="footer">
+<!---------footer---------->
+<footer id="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -194,10 +237,12 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
 
 
-    <!-- navbar animation -->
+
+
+<!-- navbar animation -->
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -209,8 +254,7 @@
                 }
             });
         });
-        
-
+    
     </script>
 </body>
 

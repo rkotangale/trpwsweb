@@ -77,7 +77,7 @@ html, body {
 
 
 /*------------- ABout us page css ---------------------*/
-
+*{scroll-behavior: smooth;}
 
 /*video background  at top*/
 .video-background {
@@ -93,7 +93,7 @@ html, body {
     left: 60%;
     transform: translate(-50%, -50%);
     font-size: 50px;
-    color: white;
+    color:white;
     font-weight: bold;
 }
 #bgvid {
@@ -109,7 +109,7 @@ html, body {
     text-transform: uppercase;
     position: relative;
 }
-.about hr{
+.green-hr{
     width: 50px;
     display: block;
     height: 3px;
@@ -175,7 +175,22 @@ html, body {
   }
   
 
+/*approach section*/
+.approach h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*trpws team banner
 
+
+.img-jmbo {
+    background-image: url('img/tumblr_m2qkwglczg1r8dluwo1_500 (1).jpg');
+    background-size: 100%, 100%;
+    background-position: center;
+   height: 60vh;
+} */
 
 
 
