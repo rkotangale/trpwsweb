@@ -79,29 +79,14 @@ html, body {
 /*------------- ABout us page css ---------------------*/
 *{scroll-behavior: smooth;}
 
-/*video background  at top*/
-.video-background {
-    position: relative;
-    padding-left: 10px;
-    width: 83.5%;
-    min-height: 0vh;
-}
+/*about us cover */
+.about-cover-img{
+    height: 750px;
+    background-image: url(img/main.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
-.txt h2 {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color:white;
-    font-weight: bold;
-}
-#bgvid {
-    width: 119%;
-    height: 85vh;
-    object-fit: cover;
-    margin-top: 87px;
-}
 /*about us heading text*/
 .about h2{
     font-size: 50px;
@@ -122,7 +107,7 @@ html, body {
     text-align: center;
     padding: 40px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
+    background: #009970;
   }
   
   .about .icon-box .icon {
@@ -130,13 +115,13 @@ html, body {
     width: 64px;
     height: 64px;
     border-radius: 50px;
-    border: 1px solid #009970;
+    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     transition: ease-in-out 0.3s;
-    color: #009970;
+    color: white;
   }
   
   .about .icon-box .icon i {
@@ -150,7 +135,7 @@ html, body {
   }
   
   .about .icon-box h4 a {
-    color: #36343a;
+    color: #fff;
     transition: ease-in-out 0.3s;
   }
   
@@ -158,20 +143,21 @@ html, body {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
+    color: #fff;
   }
   
   .about .icon-box:hover {
-    border-color: #fff;
-    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    border-color: #009970;
+    box-shadow: 0px 0 25px 0 black;
   }
   
   .about .icon-box:hover h4 a {
-    color: #009970;
+    color: #fff;
   }
   
   .about .icon-box:hover .icon {
-    color: #fff;
-    background: #009970;
+    color: #009770;
+    background: #fff;
   }
   
 
@@ -182,15 +168,7 @@ html, body {
     text-transform: uppercase;
     text-align: center;
 }
-/*trpws team banner
 
-
-.img-jmbo {
-    background-image: url('img/tumblr_m2qkwglczg1r8dluwo1_500 (1).jpg');
-    background-size: 100%, 100%;
-    background-position: center;
-   height: 60vh;
-} */
 
 
 

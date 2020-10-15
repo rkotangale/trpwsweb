@@ -7,7 +7,7 @@
             width: 12px;
             background: #f6f6f7; 
             border-radius: 10px;
-            border: 1px solid black;}
+            border: 1px solid white;}
             
         ::-webkit-scrollbar-thumb {
         border-radius: 10px;
@@ -26,6 +26,11 @@
     <!--stylesheet link-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!--animation (AOS - Animation on scroll) link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -40,9 +45,9 @@
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
    
     <!-- custom add-ons -->
+
     <link rel="stylesheet" type="text/css" href="add.css">
     <script src="owl.carousel/owl.carousel.min.js"></script>
-    <script src="aos/aos.js"></script>
     <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
 
@@ -88,25 +93,13 @@
         </nav>
 </div>
 <!--------------------------------nav bar end--------------------------------------------------------->
- <br>
 
-<!--background video-->
-<div class="video-background" id="video">
-        <div class="video-wrap">
-            <div class="video">
-                <div class="vdo">
-                <div class="txt"><h2>TRPWS</h2></div>
-                <video id="bgvid" autoplay loop muted class='py-2 px-2'>
-                    <source src="img/Screenrecorder-2020-07-26-11-55-38-886 (1).mp4" type="video/mp4">
-                </video>
-                </div>
-            </div>
-        </div>
+<!--cover image-->
+<div class="about-cover-img">
 </div>
-<!--background video end-->
- 
-    
-    
+<!--cover image end-->
+
+
 <!--About us heading text-->    
 <section class="text-center">
         <div class="about">
@@ -119,38 +112,40 @@
 <section class="about section-bg">
     <div class="container">
 
-      <div class="row">
+      <div class="row ">
 
-        <div class="col-md-4 col-sm-6 col-xs-12" >
+        <div class="col-md-4 col-sm-6 col-xs-12 " >
             <div class="about-wrap text-center">
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <div class="icon" ><i class="fa-2x fa fa-handshake" aria-hidden="true"></i></div>
                 <h4><a>Mission</a></h4>
-                <p style='margin-bottom: 50px;font-weight: bold;'>To reach out as many people as possible and make a difference in their life. Our mission is to make their inner self happy. We want to bring a change in society by trying to eliminate the discrimination based on privilege by birth and not hard work and talent.</p>
+                <p style='margin-bottom: 22px;font-weight: bold;'>To reach out as many people as possible and make a difference in their life. Our mission is to make their inner self happy. We want to bring a change in society by trying to eliminate the discrimination based on privilege by birth and not hard work and talent.</p>
               </div>
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="about-wrap text-center">
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+            <div class="about-wrap">
+              <div class="icon-box" data-aos="zoom-in"  data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <div class="icon"><i  class="fa-2x fa fa-flask" aria-hidden="true"></i></div>
                 <h4><a>Values</a></h4>
-                <p style='font-weight: bold;'>Transparency.<br>
-                    Respect for human rights.<br>
-                    No Discriminatory.<br>
-                    Commitment.<br>
-                    Integrity.<br>
-                    No personal benefit.<br>
-                    Secular, Non-Political and Non-Religious.<br>
-                    See potential in every poor child.</p>
+                <p style='font-weight: bold;'>
+                        Transparency<br>
+                        Respect for human rights<br>
+                        No Discriminatory<br>
+                        Commitment<br>
+                        Integrity<br>
+                        No personal benefit<br>
+                        Secular, Non-Political and Non-Religious<br>
+                        See potential in every poor child<br>
+                </p>
               </div>
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
             <div class="about-wrap text-center">
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box" data-aos="fade-left"  data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <div class="icon"><i  class="fa-2x fa fa-star" aria-hidden="true"></i></div>
                 <h4><a>Vision</a></h4>
                 <p style='font-weight: bold;'>To make this world a better place for unprivileged people by providing them whatever required to our full potential. We believe that talent and skills are god’s gift and are product of hard work and not birth. To fill the society with individuals   who has the power of differentiating between what is good and bad for them as well as the society.</p>
@@ -185,22 +180,12 @@
 </section>
 <!-------------Our approach (our story) section end-------------------------->
 
-<!-------------trpws our team image(banner)------------------------
-<div class="jumbotron img-jmbo">
-    <section class="testful-recipes between">
-      <div class="container">
-          <div class="global headline">
-              <div class="animate-top">
-                  <h2 class="sub-headline text-white"><span class="first-letter">Trpws</span></h2>
-              </div>
-              <div class="animate-top"><b><p class="headline headline-dark text-white">OUR TEAM</p></b></div>
-          </div>
-      </div>
-    </section>
-  </div>
-  
-  
------------trpws our team image(banner) end-------------------------->
+
+<!-----------------------TRPWS Section-------------------------------------------->
+
+
+
+<!-----------------------TRPWS Section End-------------------------------------------->
 
 
 <!---------footer---------->
@@ -256,6 +241,12 @@
         });
     
     </script>
+
+    <!--Animation on scroll (Aos) link and script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
