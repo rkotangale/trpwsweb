@@ -107,9 +107,20 @@ html, body {
     padding: 1rem;
     border-radius: 0;
 }
-
+.jumbotron hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
 .padidng {
     padding-bottom: 2rem;
+}
+.head{
+	text-align:center;
+}
+.lead{
+text-align:center;	
 }
 /*jumbotron Section End*/
 
@@ -126,12 +137,6 @@ html, body {
     margin-top: .3rem;
     margin-bottom: 1rem;
 	
-}
-.head{
-	text-align:center;
-}
-.lead{
-text-align:center;	
 }
 /*Welcome Section End*/
 
@@ -229,6 +234,12 @@ figure{
 /*Fixed Background Image Section End*/
 
 /*Education @TRPWS section Starts*/
+.trpwshead hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
 .img1{
 	width: 330px;
     padding: 10px;
