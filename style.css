@@ -215,7 +215,7 @@ figure{
     left: 0;
     width: 100%;
 }
-.fixed-wrap {
+#fixed {
     background-image: url("img/p.jpg");
     background-attachment: fixed;
     display: block;
