@@ -69,38 +69,42 @@ html, body {
 
 /* Home page CSS starts*/
 
-/*Carousel Section Start*/
-.img {
-    width: 100%;
-    height: 50%;
+/*first image Start*/
+#header{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/n.jpeg");
+	background-position: center;
+	background-size: cover;
 }
+.header-box{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.header-box h1{
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	margin: 10px;
+}
+.header-box .the{
+	color: #F91A24;
+}
+.header-box .rising{
+	color: #9FE8F8;
+}
+.header-box .people{
+	color: #E1B018;
+}
+.header-box .welfare{
+	color: #B20EBF;
+}
+.header-box .society{
+	color: #0E5704;
+}
+/*first Image End*/
 
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel-caption h1 {
-    font-size: 250%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
-}
-
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 100;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
-}
-.carousel-item {
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.4s ease, -webkit-transform 0.5s ease;
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-}
-/*Carousel Section End*/
 
 /*jumbotron Section Starts*/
 .jumbotron {
@@ -136,7 +140,6 @@ text-align:center;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
-	
 }
 /*Welcome Section End*/
 
@@ -394,7 +397,7 @@ figure{
 
 .portfolio .portfolio-wrap .portfolio-info a:hover {
   background: #428bca;
-  color: #fff;
+  background: #009970;
 }
 
 .portfolio .portfolio-wrap:hover {
