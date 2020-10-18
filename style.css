@@ -69,7 +69,7 @@ html, body {
 
 /* Home page CSS starts*/
 
-/*first image Start*/
+/*header image Start*/
 #header{
 	height: 100vh;
 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/n.jpeg");
@@ -103,7 +103,7 @@ html, body {
 .header-box .society{
 	color: #0E5704;
 }
-/*first Image End*/
+/*header Image End*/
 
 
 /*jumbotron Section Starts*/
