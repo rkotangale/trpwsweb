@@ -36,9 +36,8 @@ a:hover {
 /* Home page CSS */
 
 /* ABout us page css */
-
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* volunteer page css start*/
-
 .cover-img {
   height: 700px;
   background-image: url(img/main.jpeg);
@@ -87,10 +86,6 @@ a:hover {
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
-}
-
-.padidng {
-  padding-bottom: 2rem;
 }
 
 .welcome {
@@ -382,11 +377,6 @@ hr.light-100 {
   backface-visibility: visible;
 }
 
-.img1 {
-  height: 300px;
-  width: 300px;
-}
-
 figure {
   position: relative;
   width: 100%;
@@ -420,3 +410,4 @@ figure {
 }
 
 /* Volunteer Page css ends */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
