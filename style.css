@@ -113,13 +113,14 @@ html, body {
 }
 
 .btn-primary {
-    background-color: #6648b1;
-    border: 1px solid #6648b1;
+    background-color: #009970;
+    border: 1px solid #009970;
 }
 
 .btn-primary:hover {
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
+    background-color: #ffff;
+    border: 1px solid  #009970;
+    color: #009970;
 }
 
 .jumbotron {
