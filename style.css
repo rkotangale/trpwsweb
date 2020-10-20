@@ -117,6 +117,12 @@ html, body {
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
+.jumbotron .btn{
+	background-color: #b4b4b4;
+}
+.jumbotron .btn:hover{
+	background-color: #009970;
+}
 .padidng {
     padding-bottom: 2rem;
 }
