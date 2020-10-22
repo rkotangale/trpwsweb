@@ -111,7 +111,7 @@ html, body {
 .green-hr{
     width: 50px;
     display: block;
-    height: 3px;
+    height: 2px;
     background: #009970;
 }
 
@@ -133,11 +133,17 @@ html, body {
     color: #fff;
     transition: ease-in-out 0.3s;
 }
-  
+
+.white-hr{
+width: 50px;
+display: block;
+height: 2px;
+background: #fff;
+}
+
 .about .icon-box p {
-    line-height: 24px;
+    
     font-size: 14px;
-    margin-bottom: 0;
     color: #fff;
 }
   
@@ -150,15 +156,8 @@ html, body {
     color: #fff;
 }
   
-/*approach section*/
-.approach h2{
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
 
-/*Trpws section*/
+/*Trpws team  section*/
 .carousel-cell {
     width: 100%; /* full width */
     height: 450px;
