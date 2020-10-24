@@ -97,12 +97,6 @@ html, body {
     border-radius: 0;
 	justify-content: center;
 }
-.jumbotron hr{
-    border-top: 2px solid #b4b4b4;
-    width: 60%;
-    margin-top: .3rem;
-    margin-bottom: 2rem;
-}
 .jumbotron .btn{
 	background-color: #DCDCDC;
 }
@@ -116,13 +110,6 @@ html, body {
     width: 75%;
     margin: 0 auto;
     padding-top: 2rem;
-}
-
-.welcome hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
 }
 /*Welcome Section End*/
 
@@ -233,10 +220,8 @@ figure{
     top: 45%;
     left: 50%;
 }
-
 .content btn2{
     position: absolute;
-    padding: 10px 10px;
 	display: block;
 }
 .content span:nth-child(4){
@@ -273,6 +258,12 @@ figure{
 }
 
 /*Education @TRPWS section End*/
+
+/*Videos section starts*/
+#iframe{
+	margin-top: -80px;
+}
+/*Videos section starts*/
 
 /*Portfolio Section Starts*/
 .portfolio .portfolio-item {
