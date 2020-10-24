@@ -167,6 +167,9 @@ background: #fff;
     /* half-width cells for larger devices */
     .carousel-cell { width: 33%; }
 }
+.about-name{
+    padding-top: 10px;
+}
 
 /*flip card part*/
 
