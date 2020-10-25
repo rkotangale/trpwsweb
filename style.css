@@ -179,6 +179,10 @@ a:hover {
   font-variant: small-caps;
 }
 
+[class*='col-'] {
+  padding: 1rem;
+}
+
 /*------------- ABout us page css end---------------------*/
 
 /* volunteer page css start*/
