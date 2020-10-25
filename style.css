@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
     width: 100%;
   }
 }
+
 html,
 body {
   height: 100%;
@@ -217,13 +218,14 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #009970;
+  border: 1px solid #009970;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #ffff;
+  border: 1px solid #009970;
+  color: #009970;
 }
 
 .jumbotron {

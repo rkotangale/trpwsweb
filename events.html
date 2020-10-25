@@ -2,128 +2,393 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="aos/aos.css">
 
-    <title>Volunteer</title>
+  <title>Events</title>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- custom add-ons -->
-    <link rel="stylesheet" type="text/css" href="add.css">
-    <script src="owl.carousel/owl.carousel.min.js"></script>
-    <script src="aos/aos.js"></script>
-    <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- custom add-ons -->
+  <link rel="stylesheet" type="text/css" href="add.css">
+  <script src="owl.carousel/owl.carousel.min.js"></script>
+  <script src="aos/aos.js"></script>
+  <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
 
 </head>
 
 <body>
 
-    <!------navigation------->
-    <div class="container-fluid menu">
-        <nav class="navbar navbar-expand-lg my-navbar">
-            <a class="navbar-brand " href="#"><img src="img/trpws.png" height="50px" alt="" loading="lazy"></a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <!------navigation------->
+  <div class="container-fluid menu">
+    <nav class="navbar navbar-expand-lg my-navbar">
+      <a class="navbar-brand " href="#"><img src="img/trpws.png" height="50px" alt="" loading="lazy"></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./aboutus.html">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./events.html" class="nav-link  active">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./internship.html" class="nav-link">Internship</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./vol.html" class="nav-link">Volunteer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./projectaahar.html" class="nav-link">Project Aahar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./contactus.html" class="nav-link">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutus.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./events.html" class="nav-link active">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="./internship.html" class="nav-link">Internship</a>
+          </li>
+          <li class="nav-item">
+            <a href="./vol.html" class="nav-link">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a href="./projectaahar.html" class="nav-link">Project Aahar</a>
+        </li>
+          <li class="nav-item">
+            <a href="./contactus.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!------end_navigation-->
+  <!---main_body-->
+  <section>
+    <div class="container">
 
-    <!---------footer---------->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>The Rising People Welfare Society</h3>
-                        <p>
-                            Woodland Park, Block C<br>
-                            Tagore Garden, Subhash Nagar<br>
-                            Delhi, 110018<br><br>
-                            <strong>Phone:</strong> +918800100021<br>
-                            <strong>Email:</strong> trpws2012@gmail.com<br>
-                        </p>
-                    </div>
-
-                </div>
-                <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                    <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
-                            class="bx bxl-twitter"></i></a>
-                    <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i
-                            class="bx bxl-facebook"></i></a>
-                    <a href="https://www.instagram.com/trpws/" class="instagram" target="_blank"><i
-                            class="bx bxl-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCv0nOO_iLRQcEyDQbu89jmw" class="google-plus"
-                        target="_blank"><i class="bx bxl-youtube"></i></a>
-                    <a href="https://www.linkedin.com/jobs/the-rising-people-welfare-society-jobs/?originalSubdomain=in"
-                        class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                </div>
-            </div>
+      <div class="d-flex justify-content-sm-center" data-aos="fade-up">
+        <h1 style="text-decoration-color: gray; text-decoration-line: underline;"><b>EVENTS</b></h1>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/carousel2.png" class="img-fluid" alt="image_1">
         </div>
-    </footer>
+        <div class="col-md-7 pt-4" data-aos="fade-left">
+          <h2>PROJECT SHIKSHA</h2>
+          <h4><b><a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b></h4>
+          <p class="font-italic">
+            In our societies there are certain facilities known as Basic Human Rights, things like ‘Right to Life’,
+            ‘Freedom from Slavery’, ‘Freedom of Opinion and Expression’ and many more. In some countries amenities like
+            water and electricity are also considered Basic Human Rights, in some Education is also a Basic Human Right.
+            India too has Education …
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5 order-1 order-md-2" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/pawsitive_img.jpg" class="img-fluid" alt="image_2">
+        </div>
+        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+          <h2>PAWSITIVITY</h2>
+          <h4><b><a href="img\portfolio\pawsitive_img.jpg">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            TRPWS organised a live session titled Pawsitivity on 27th May. This session comprised of a discussion about
+            how people can help stray animals around them. Our esteemed guests for this session were Neha Singh,
+            Assistant Professor KIET Group of Institutions, Ghaziabad and Garima Gupta, Team lead, IRIS Software. Both
+            Neha Ma’am and Garima Ma’am are …
+          </p>
+
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img\portfolio\bhangra_night.jpg" class="img-fluid" alt="image_3">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-left">
+          <h2>BHANGRA NIGHT</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            Aim– To entertain people who must have been tense amidst the lockdown. Bhangra Night
+            with Kunwar Saheb Singh TRPWS presented a talk show on 31st May with Kunwar Saheb Singh, the bhangra king.
+            This live session viewed by around 400 people live was truly a spectacular one. After all, who wouldn’t fall
+            in love with …
+          </p>
+
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5 order-1 order-md-2" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img\portfolio\environment-day.jpg" class="img-fluid" alt="image_4">
+        </div>
+        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+          <h2>WORLD ENVIRONMENT DAY</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            Aim– To teach young children about the importance of nature to us and how its distraught can harm us. On
+            environment day the NGO held various activities for young children, a drawing competition was held, children
+            were asked to draw out of their immaculate imagination a poster on the theme of world environment day.
+            Children …
+
+            <li>Following this a plantation drive was also completed. Children with their own hands planted the little
+              saplings in the ground, covered them with dirt and manure and watered them. Many such little saplings were
+              planted and children enjoyed planting them. Some children even gleefully asked when would the saplings
+              turn
+              into a tree. Children learned a few very important lessons like how our planet, the whole human kind is
+              dependent on the well being of nature and how terrorising it can be if the balance of the ecology is lost.
+            </li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/carousel5.jpg" class="img-fluid" alt="image_5">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-left">
+          <h2>PERSONALITY DEVELOPMENT SESSION</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">Aim – To teach children how to develop their personality while growing up both
+            physically and mentally. Personality is the culmination of traits that one gains during their lifetime
+            through experience. It is the growth of both how you dress, how you walk, how you talk, and even how you
+            think in changing times. So having …
+            <li>The children were allowed to get clarified about all their doubts on the matter and how to overcome
+              everything with a witty personality. There is no scientific way to prove what kind of a personality is
+              better, after all it is such an abstract concept, but to incorporate virtuous values, to act gently and to
+              be calm definitely can help us to become a better version of ourselves</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5 order-1 order-md-2" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/national_museum_img.jpeg" class="img-fluid" alt="image_6">
+        </div>
+        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+          <h2>NATIONAL MUSEUM</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            Aim – To give an idea to the children about the richness and uniqueness of our cultureand tradition. To let
+            them know about India and it’s unique diversity. Museum is a building in which objects of historical,
+            scientific, artistic, or cultural interest are stored and exhibited. One can learn many things in a visit to
+            …
+
+            <li>They gained knowledge about the significance of the objects in respect of history, culture and artistic
+              excellence and achievements. It was a step to get past to present and appreciate our ancient custom and
+              culture. Children got to learn the significance of our rites and rituals and various customs that are deep
+              buried and never spoken of in any history book.</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/museum.jpg" class="img-fluid" alt="image_7">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-left">
+          <h2>RAILWAY MUSEUM</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">Aim – To provide the children information about the origin and history of Indian
+            railways. Railway museum exhibits the 163 years of rich Indian Railway’s historic heritage in the company of
+            rare steam, diesel and electric locos, royal saloons and lots of artifacts. Interactive display will
+            enhances the experience of visitors and make them understand how a single …
+            <li>The situations which were prevailing during that point of time and how the railways was started and for
+              it
+              as used. The children also got to see the 163 years of rich Indian Railway’s historic heritage in the
+              company of rare steam, diesel and electric locos, royal saloons and lots of artifacts. Interactive display
+              will enhance the experience of visitors and make them understand how a single investment of Indian Railway
+              helped in unification and progress of India as a nation.</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5 order-1 order-md-2" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/menstruation.jpg" class="img-fluid" alt="image_8">
+        </div>
+        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+          <h2>MENSTRUATION CLASS</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            Aim – A workshop for awareness about menstruation and menstrual hygiene, so that girls know what to do when
+            it hits them. Knowing what will happen during puberty is the first step towards adapting well to
+            adolescence. Learning facts about bodies and growing up can help us to stay healthy, take good care of
+            ourselves, and make …
+
+            <li>A few days in a month, girls who have reached puberty experience a period. Another name term for having
+              a
+              period is menstruation. Menstruation can begin as early as 8 or as late as 16. Every girl has her own
+              internal clock. The lining of the uterus builds up every month to prepare the body to nourish a baby if a
+              woman is pregnant. If a baby is not conceived, 4–6 tablespoons of blood comes flows out through the vagina
+              between the legs as it is not needed.</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/guru_randhwa.jpeg" class="img-fluid" alt="image_9">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-left">
+          <h2>GURU RANDHAWA</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            The much awaited arrival of this star ended on 6th of november 2016. It was Guru Randhawa, a sensational
+            singer of our period of time. His visit liftedthe spirit of all the children and gave them motivation to
+            move on in life. The children organised a dance and sports event for Mr. Guru randhawa …
+
+            <li>He visited the NGO and spent the day with children. He enjoyed his stay and the children enjoyed his
+              presence. He interacted with the children,spoke to them, danced with them and gave them lessons about how
+              life is and how to face it. following that he played badminton with the children and made children sit
+              around him and interactd, gave them his autographs and made their day. </li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
 
 
-    <!-- navbar animation -->
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 60) {
-                    $('.my-navbar').addClass('navbar-scroll');
-                }
-                else {
-                    $('.my-navbar').removeClass('navbar-scroll');
-                }
-            });
-        });
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5 order-1 order-md-2" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/airforce_museum.jpeg" class="img-fluid" alt="image_9">
+        </div>
+        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+          <h2>AIRFORCE MUSEUM</h2>
+          <h4><b><a href="#">Leave a Comment </a>/<a href="#">Uncategorized </a> / <a href="#"> By trpws2012 </a></b>
+          </h4>
+          <p class="font-italic">
+            Aim – To make children aware of the people and institute of the country that protects usfrom aerial
+            invasions and national troubles. Air Force Museum, the only one of its kind in India, houses a rich
+            collection of memorabilia of Indian Military Aviation and displays the history of Indian Air Force. The
+            children got to know about …
 
-    </script>
+            <li>Country first, my colleague next and myself last was the lesson the children learnt that day. Patriotism
+              is not trolling people but to stand in the border and live for the country.</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
 
+
+      <hr>
+      <div class="row justify-content-start">
+        <div class="col-md-5" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="img/portfolio/rahagiri.jpg" class="img-fluid" alt="image_10">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-left">
+          <h2>RAHAGIRI</h2>
+          <h4><b><a href="#">July 18, 2015</a>/<a href="#">By trpws2012</a></b></h4>
+          <p class="font-italic">
+            Aim – To showcase the talents and skills of children and to learn from others how to work and implement
+            ideas in an open platform. Rahagiri is an open event usually conducted on weekends. An entire road is
+            blocked and different organizations and people showcase their talent and skills by installing stalls on
+            either side …
+
+            <li>They got practical knowledge of how to implement theoretical stuff and learn new skills such as managing
+              and communicating with people who come around their stalls. When they participate in other events they
+              gain
+              soft skills such as opening up to people and trying to communicate with other people.</li>
+          </p>
+          <a class="btn btn-primary" href="#" role="button">Read More »</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--main_body_end-->
+  <!---------footer---------->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>The Rising People Welfare Society</h3>
+            <p>
+              Woodland Park, Block C<br>
+              Tagore Garden, Subhash Nagar<br>
+              Delhi, 110018<br><br>
+              <strong>Phone:</strong> +918800100021<br>
+              <strong>Email:</strong> trpws2012@gmail.com<br>
+            </p>
+          </div>
+
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/trpws/" class="instagram" target="_blank"><i
+              class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCv0nOO_iLRQcEyDQbu89jmw" class="google-plus" target="_blank"><i
+              class="bx bxl-youtube"></i></a>
+          <a href="https://www.linkedin.com/jobs/the-rising-people-welfare-society-jobs/?originalSubdomain=in"
+            class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- navbar animation -->
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 60) {
+          $('.my-navbar').addClass('navbar-scroll');
+        } else {
+          $('.my-navbar').removeClass('navbar-scroll');
+        }
+      });
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
