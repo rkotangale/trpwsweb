@@ -18,8 +18,15 @@ mail($recipient, $subject, $formcontent, $mailheader) ;
 
 //showing alert and redirected to contact page
 echo "<script>
-alert('Your Message Sent Successfully!');
-window.location.href = './contactus.html';
+setTimeout(SWAL, 1000);
+function SWAL(){
+    swal('Thanks!', 'Your Message Sent Successfully!', 'success');
+}
+setTimeout(OUT, 2000);
+function OUT(){
+    window.location.href = '/contactus.html';
+}
 </script>";
-
 ?>
+<!--sweet alert cdn-->
+<script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>
