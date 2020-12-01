@@ -531,6 +531,19 @@ figure {
 
 /* Volunteer Page css ends */
 /* ----------------------------------------------------------------------------------------------------------------- */
+/*---------------project aahar css----------------------*/
+.donate-btn{
+  border-color: #009970 !important ;
+  color: white !important;
+  font-weight: bold;
+  background-color: #009970;
+}
+
+.donate-btn:hover {
+  background-color: white !important ;
+  color: #009970 !important;
+}
+/*---------------project aahar css end---------*/
 
 /*Contact us page css*/
 /*details part*/
