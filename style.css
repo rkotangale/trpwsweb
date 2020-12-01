@@ -543,6 +543,49 @@ figure {
   background-color: white !important ;
   color: #009970 !important;
 }
+/*donation form part*/
+.donation form{
+  width: 350px;
+}
+.donation .container{
+  box-shadow: 10px 20px 20px #777777;
+}
+.donation h4 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.donation-green-hr {
+  width: 20%;
+  display: block;
+  height: 2px;
+  background: #009970;
+}
+.donation label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.donation input,
+#donation-option
+{
+  border: 1px solid #000;
+  background-color: gainsboro;
+}
+
+.donation input:focus,
+#donation-option:focus{
+  box-shadow: 2px 2px 2px 2px #009970 !important ;
+}
+.donation button {
+  border-color: #009970 !important ;
+  color: #009970 !important;
+  font-weight: bold;
+}
+.donation button:hover {
+  background-color: #009970 !important ;
+  color: #fff !important;
+}
 /*---------------project aahar css end---------*/
 
 /*Contact us page css*/
