@@ -183,6 +183,79 @@ a:hover {
 
 /*------------- ABout us page css end---------------------*/
 /* ----------------------------------------------------------------------------------------------------------------- */
+/*--------------------------Internship page css-----------*/
+
+/*internship cover */
+.internship-head{
+  background-color: beige;
+}
+.internship h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+}
+.internship-green-hr {
+  width: 60px;
+  display: block;
+  height: 2px;
+  background: #009970;
+}
+
+/*form part*/
+#internshipform{
+  width: 370px;
+}
+
+
+.internship label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.internship input,
+#internship-option,
+.internship textarea {
+  border: 1px solid #000;
+  background-color: gainsboro;
+}
+/*resume upload button style*/
+.internship input[type='file']::-webkit-file-upload-button {
+  font-size: small;
+  color: #009970;
+  font-weight: bold;
+  background-color: white;
+  border:1px solid #009970;
+  border-radius: 5px;
+}
+.internship input[type='file']::-ms-browse  {
+  font-size: small;
+  color: #009970;
+  font-weight: bold;
+  background-color: white;
+  border:1px solid #009970;
+  border-radius: 5px;
+}
+.internship input[type='file']::-webkit-file-upload-button:hover {
+  color: white;
+  background-color:#009970;
+}
+.internship input:focus,
+#internship-option:focus,
+.internship textarea:focus {
+  box-shadow: 2px 2px 2px 2px #009970 !important ;
+}
+.internship button {
+  border-color: #009970 !important ;
+  color: #009970 !important;
+  font-weight: bold;
+}
+.internship button:hover {
+  background-color: #009970 !important ;
+  color: #fff !important;
+}
+
+/*--------------------------Internship page css end-----------*/
 
 /* volunteer page css start*/
 .cover-img {
