@@ -176,23 +176,6 @@
         </div>
 </footer>
 
-
-<!-- navbar animation -->
-<script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 60) {
-                    $('.my-navbar').addClass('navbar-scroll');
-                }
-                else {
-                    $('.my-navbar').removeClass('navbar-scroll');
-                }
-            });
-        });
-    
-</script>
-
-
 <!-- Optional JavaScript -->    
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -205,6 +188,22 @@ crossorigin="anonymous"></script>
 integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<!-- navbar animation -->
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 60) {
+                $('.my-navbar').addClass('navbar-scroll');
+            }
+            else {
+                $('.my-navbar').removeClass('navbar-scroll');
+            }
+        });
+    });
+
+</script>
+
 
 <!--Animation on scroll (Aos) link and script-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
