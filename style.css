@@ -56,7 +56,7 @@ a:hover {
 /*about us cover */
 .about-cover-img {
   height: 750px;
-  background-image: url(img/main.jpeg);
+  background-image: url(images/main.jpeg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -260,7 +260,7 @@ a:hover {
 /* volunteer page css start*/
 .cover-img {
   height: 700px;
-  background-image: url(img/main.jpeg);
+  background-image: url(images/main.jpeg);
   background-attachment: fixed;
   background-size: cover;
 }
