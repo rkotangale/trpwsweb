@@ -77,6 +77,9 @@ a:hover {
   margin: 0 auto;
   padding-top: 2rem;
 }
+.btn:hover{
+  color: #fff;
+}
 /*Welcome Section End*/
 
 /*Below We teach them.....(Cards) Starts*/
@@ -106,6 +109,7 @@ a:hover {
 
 .services .icon-box .icon i {
   font-size: 28px;
+  color: #009970;
 }
 
 .services .icon-box h4 {
@@ -134,9 +138,13 @@ a:hover {
   color: #009970;
 }
 
-.services .icon-box:hover .icon {
+.services .icon-box:hover .icon i {
   color: #fff;
-  background: #009970;
+  background-color: #009970;
+}
+.services .icon-box .icon i:hover {
+  background-color: #009970;
+  color: #fff;
 }
 /*Below We teach them.....(Cards) End*/
 
