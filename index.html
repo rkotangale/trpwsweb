@@ -22,7 +22,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-        
 </head>
 
 <body>
@@ -302,13 +301,13 @@
 </section>
 <!--------------------------------- Testinomials -------------------------------------->
 <div class="testimonials">
-	   <div class="inner">
+	   <div class="inner ">
 		    <h1>TESTIMONIALS</h1>
 		     <div class="border1"></div>
 		       
 		     <div class="row1">
-		        <div class="col">
-				   <div class="testimonial">
+		        <div class="col" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+				   <div class="testimonial" style="padding-bottom: 32px;">
 					 <img src="./images/testimonial-images/shilpi-gupta.png">
 					 <div class="name">Shilpi Gupta</div>
 					   <div class="stars">
@@ -318,12 +317,11 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
-					   
 					   <p>It's a great place for people who want to do social work. Environment is good very friendly. NGO is doing great by helping the poor children to achieve their dreams .</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col">
+				 <div class="col" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
 				   <div class="testimonial">
 					 <img src="./images/testimonial-images/akshita-babutta.png">
 					 <div class="name">Akshita Babutta</div>
@@ -334,12 +332,11 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
-					   
 					   <p>I have been working with The rising people welfare society from past 3 weeks and it feels great to be part of this organisation. Each and every team member is extremely supportive and enthusiastic towards their work.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col">
+				 <div class="col" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
 				   <div class="testimonial">
 					 <img src="./images/testimonial-images/bineet-singh.png">
 					 <div class="name">Bineet Singh</div>
@@ -350,12 +347,11 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
-					   
 					   <p>The Rising People Welfare Society is doing an absolute exemplary work by giving these little kids a beautiful life not only by the means of education but also through their overall development.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col">
+				 <div class="col" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
 				   <div class="testimonial">
 					 <img src="./images/testimonial-images/khushi-atolia.png">
 					 <div class="name">Khushi Atolia</div>
@@ -366,12 +362,11 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
-					   
 					   <p>This NGO is doing amazing work by helping for upliftment of the children from slum so they have a good career and a brighter future.The things they do without any help from the government or any other organization is just remarkable and worth mentioning.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col">
+				 <div class="col" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
 				   <div class="testimonial">
 					 <img src="./images/testimonial-images/devesh-mittal.png">
 					 <div class="name">Devesh Mittal</div>
@@ -382,14 +377,14 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
-					   
-					   <p>Trpws is working for a noble and selfless cause... Providing education to children who do not have access to it is highly appreciated... and I feel pleased to be a part of this group...<br>#TRPWS <br>#ProjectAAHAR</p>
+					   <p>Trpws is working for a noble and selfless cause... Providing education to children who do not have access to it is highly appreciated... and I feel pleased to be a part of this group...<br><strong>#TRPWS</strong><br><strong>#ProjectAAHAR</strong></p>
 				   </div>
 			    </div>
 				 
 		      </div>
 		</div>
 </div>
+
 <!--------------------------------- footer ------------------------------------------>
 <footer id="footer">
         <div class="footer-top">
@@ -424,19 +419,6 @@
         </div>
 </footer>
 
-<!-- navbar animation -->
-<script>
-$(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 60) {
-      $('.my-navbar').addClass('navbar-scroll');
-    }
-    else {
-      $('.my-navbar').removeClass('navbar-scroll');
-      }
-  });
-});
-</script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -448,6 +430,20 @@ $(document).ready(function () {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+<!-- navbar animation -->
+<script>
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 60) {
+        $('.my-navbar').addClass('navbar-scroll');
+      }
+      else {
+        $('.my-navbar').removeClass('navbar-scroll');
+        }
+    });
+  });
+  </script>
 <!--aos js link-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
 <script>AOS.init();</script>    
