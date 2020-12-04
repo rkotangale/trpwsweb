@@ -39,7 +39,7 @@ a:hover {
 #header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('img/n.jpeg');
+    url('images/main.jpeg');
   background-position: center;
   background-size: cover;
 }
