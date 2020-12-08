@@ -41,7 +41,7 @@
 <!--navigation bar-->
 <div class="container-fluid menu">
         <nav class="navbar navbar-expand-lg my-navbar">
-            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="50" alt="" loading="lazy"></a>
+            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="85" width="165" alt="" loading="lazy"></a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -229,6 +229,22 @@ crossorigin="anonymous"></script>
     });
 
 </script>
+ <!--back to top btn-->
+    <script type="text/javascript">
+      myButton = document.getElementById("topbtn");
+      window.onscroll = function() {scrollfunction()};
+      function scrollfunction() {
+        if(document.body.scrollTop  > 40 || document.documentElement.scrollTop > 40) {
+          myButton.style.display = "Block";
+        } else {
+          myButton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
 <!--Animation on scroll (Aos) link and script-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
