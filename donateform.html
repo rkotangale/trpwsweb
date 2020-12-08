@@ -42,7 +42,7 @@
 <!--navigation bar-->
 <div class="container-fluid menu">
         <nav class="navbar navbar-expand-lg my-navbar">
-            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="50" alt="" loading="lazy"></a>
+            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="85" width='165' alt="" loading="lazy"></a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -141,14 +141,18 @@
 
 
 <!--footer-->
+
 <footer id="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>The Rising People Welfare Society</h3>
-                        <p><a href="https://goo.gl/maps/VCWbSRy8RZHmmAAe9" target="_blank" style="color: #777777;">
+                    <div class="col-lg-4 col-md-6 footer-contact" style="height:200px">
+                         <img src="./images/logo.png" height="85%">
+                  </div>
+                         <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                        <h3 style="color: #1E8449"><b>The Rising People Welfare Society</b></h3>
+                           <p><a href="https://goo.gl/maps/VCWbSRy8RZHmmAAe9" target="_blank" style="color: #777777;">
                             Woodland Park, Block C<br>
                             Tagore Garden, Subhash Nagar<br>
                             Delhi, 110018</a><br><br>
@@ -158,8 +162,7 @@
                             <strong>Email:</strong> <a href="mailto:trpws2012@gmail.com" style="color: #777777;">trpws2012@gmail.com</a><br>
                         </p>
                     </div>
-
-                </div>
+                <div class="col-lg-4">
                 <div class="social-links text-center text-md-right pt-3 pt-md-0">
                     <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
                             class="bx bxl-twitter"></i></a>
@@ -174,9 +177,11 @@
                 </div>
             </div>
         </div>
+                </div>
+            </div>
+                
 </footer>
-
-<!-- Optional JavaScript -->    
+<button onclick="topFunction()" id = "topbtn" title="Go to top">Go to Top</button><!-- Optional JavaScript -->    
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -203,7 +208,22 @@ crossorigin="anonymous"></script>
     });
 
 </script>
-
+<!--back to top btn-->
+    <script type="text/javascript">
+      myButton = document.getElementById("topbtn");
+      window.onscroll = function() {scrollfunction()};
+      function scrollfunction() {
+        if(document.body.scrollTop  > 40 || document.documentElement.scrollTop > 40) {
+          myButton.style.display = "Block";
+        } else {
+          myButton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
 <!--Animation on scroll (Aos) link and script-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
